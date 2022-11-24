@@ -105,7 +105,6 @@ module.exports.otpCheck = async (req, res, next) =>{
             msg: true,
           });
         }else{
-          console.log('hi')
           res.status(200).send({
             msg: false,
           });
